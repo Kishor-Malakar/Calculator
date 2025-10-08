@@ -21,7 +21,7 @@ def click(a):
         
 root = Tk()
 root.geometry("300x450")
-root.title("Calculator By Clueless")
+root.title("Calculator By dot dot dot")
 root.resizable(0,0)
 #root.wm_iconbitmap("") 
 
@@ -109,5 +109,6 @@ button.pack(side=LEFT, padx=2, pady=2)
 button.bind("<Button>", click)
 
 frame.pack()
+
 
 root.mainloop()
